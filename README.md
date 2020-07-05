@@ -10,7 +10,7 @@ pyload
 
 Loads Stata datasets directly into a Pandas dataframe
 
-`version 0.5 5juln2020`
+`version 0.5 5jul2020`
 
 
 Overview
@@ -22,7 +22,7 @@ pyload allows Stata users to import Stata datasets directly into the Python inte
 Prequisites
 ---------------------------------
 
-gzimport requires Stata 16.0 or higher, since it uses Stata's built-in Python integration to uncompress gzipped files. In principle, of course this can also be done with command-line utilities and a lower version of Stata.
+pyload requires Stata 16.0 or higher, since it uses Stata's built-in Python integration. It also requires the [Pandas](https://pandas.pydata.org/) Python library, which also comes standard with (for instance) the Anaconda distribution of Python.
 
 Installation
 ---------------------------------
