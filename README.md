@@ -29,7 +29,7 @@ Installation
 
 Installing pyload is very simple.
 
-1. First, make sure Python is installed on your computer so that Stata can interface with it. If Stata cannot find your Python installation, [this installation guide](https://raw.githubusercontent.com/mdroste/stata-pyforest/master/docs/install.md) that I wrote for another program might be useful.
+1. First, make sure Python is installed on your computer so that Stata can interface with it. If Stata cannot find your Python installation, [this installation guide](https://github.com/mdroste/stata-pyforest/blob/master/docs/install.md) that I wrote for another program might be useful.
 
 2. Next, install the Stata code and documentation. You can run the following Stata command to install directly from this GitHub repository:
 
