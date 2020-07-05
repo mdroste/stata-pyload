@@ -52,12 +52,6 @@ df.head()
 end
 ```
 
-
-Acknowledgements
----------------------------------
-
-This program was written by [Michael Droste](https://github.com/mdroste).
-
 License
 ---------------------------------
 
