@@ -1,0 +1,4 @@
+
+v 0.50
+d Michael Droste, mdroste@fas.harvard.edu
+p 'pyload': load Stata datasets directly into Pandas

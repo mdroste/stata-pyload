@@ -1,0 +1,8 @@
+v 0.50
+d
+d 'pyload': load Stata datasets directly into Pandas
+d
+d Distribution-Date: 20200705
+d
+f pyload.ado
+f pyload.sthlp
