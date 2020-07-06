@@ -42,7 +42,7 @@ Usage
 
 Using pyload is very simple. You can optionally specify a set of variables to import - if none are specified, then all variables will be imported. You can also use if/in conditions (as with many other Stata programs) to specify a set of observations from your dataset to export.
 
-Here is an example loading a Stata dataset, sending it to Python, and then loading the Python interpreter to check the contents:
+Here is a quick example:
 ```stata
 * Load example dataset
 sysuse auto
