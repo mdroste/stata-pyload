@@ -44,8 +44,13 @@ Using pyload is very simple. You can optionally specify a set of variables to im
 
 Here is an example loading a Stata dataset, sending it to Python, and then loading the Python interpreter to check the contents:
 ```stata
+* Load example dataset
 sysuse auto
+
+* Store four variables in a pandas dataframe, all obs where foreign==0
 pyload price mpg trunk foreign if foreign==0
+
+* Open Python interpreter and look at data frame
 python
 from __main__ import df
 df.head()
